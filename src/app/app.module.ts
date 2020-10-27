@@ -15,9 +15,10 @@ import { ProductComponent } from './product/product.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, MatCardModule, MatGridListModule, MatButtonModule ],
+  imports:      [ BrowserModule, FormsModule, AppRoutingModule, ReactiveFormsModule, MatCardModule, MatGridListModule, MatButtonModule ],
   declarations: [ AppComponent, HelloComponent, ProductComponent, LoginComponent, RegisterComponent, AddProductComponent ],
   bootstrap:    [ AppComponent ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
