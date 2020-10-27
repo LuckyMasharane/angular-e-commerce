@@ -11,5 +11,10 @@ export class ProductComponent implements OnInit {
 
   ngOnInit() {
   }
+  product = [
+    {picture:"",price:"145.00",name:"T-shirt"},
+    {picture:"",price:"499.00",name:"Jeans"},
+    {picture:"",price:"1120",name:"All Star"},
 
+  ]
 }
